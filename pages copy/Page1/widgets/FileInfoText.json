@@ -1,0 +1,46 @@
+{
+  "animateLoading": true,
+  "bottomRow": 32,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    },
+    {
+      "key": "fontFamily"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "0.875rem",
+  "fontStyle": "NORMAL",
+  "isLoading": false,
+  "isVisible": "{{FilePicker1.files.length > 0}}",
+  "key": "fileinfo123",
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 32,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 18,
+  "mobileTopRow": 22,
+  "overflow": "NONE",
+  "parentColumnSpace": 10.25,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 36,
+  "shouldTruncate": false,
+  "text": "{{FilePicker1.files.length > 0 ? '📎 File: ' + FilePicker1.files[0].name + ' (' + (FilePicker1.files[0].size / 1024).toFixed(2) + ' KB)' : ''}}",
+  "textAlign": "LEFT",
+  "textColor": "#626262",
+  "topRow": 30,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "fileinfo_widget_001",
+  "widgetName": "FileInfoText"
+}

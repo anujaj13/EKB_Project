@@ -1,0 +1,43 @@
+{
+  "animateLoading": true,
+  "bottomRow": 9,
+  "dynamicBindingPathList": [
+    {
+      "key": "fontFamily"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "0.875rem",
+  "fontStyle": "NORMAL",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "subtitle123",
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 9,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 18,
+  "mobileTopRow": 5,
+  "overflow": "NONE",
+  "parentColumnSpace": 10.25,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 36,
+  "shouldTruncate": false,
+  "text": "Quickly summarize your documents with AI-powered insights. Upload any text document and get a concise, easy-to-read summary in seconds.",
+  "textAlign": "LEFT",
+  "textColor": "#626262",
+  "topRow": 7,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "subtitle_widget_001",
+  "widgetName": "SubtitleText"
+}

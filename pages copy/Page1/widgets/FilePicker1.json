@@ -1,0 +1,53 @@
+{
+  "allowedFileTypes": [
+    "*"
+  ],
+  "animateLoading": true,
+  \"borderRadius\": \"1.5rem\",
+  \"bottomRow\": 27,
+  \"boxShadow\": \"0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)\",
+  \"buttonColor\": \"{{appsmith.theme.colors.primaryColor}}\",
+  \"dynamicBindingPathList\": [
+    {
+      \"key\": \"buttonColor\"
+    }
+  ],
+  \"dynamicPropertyPathList\": [],
+  \"dynamicTriggerPathList\": [
+    {
+      \"key\": \"onFilesSelected\"
+    }
+  ],
+  \"dynamicTyping\": true,
+  \"fileDataType\": \"Base64\",
+  \"files\": [],
+  \"isDefaultClickDisabled\": true,
+  \"isDisabled\": false,
+  \"isLoading\": false,
+  \"isRequired\": false,
+  \"isVisible\": true,
+  \"key\": \"ket4u8txr9\",
+  \"label\": \"📁 Upload Document\",
+  \"leftColumn\": 2,
+  \"maxFileSize\": 5,
+  \"maxNumFiles\": 1,
+  \"minWidth\": 120,
+  \"mobileBottomRow\": 20,
+  \"mobileLeftColumn\": 2,
+  \"mobileRightColumn\": 18,
+  \"mobileTopRow\": 17,
+  \"needsErrorInfo\": false,
+  \"onFilesSelected\": \"{{SummarizeDoc.run()}}\",
+  \"parentColumnSpace\": 10.25,
+  \"parentId\": \"0\",
+  \"parentRowSpace\": 10,
+  \"renderMode\": \"CANVAS\",
+  \"responsiveBehavior\": \"hug\",
+  \"rightColumn\": 18,
+  \"selectedFiles\": [],
+  \"topRow\": 22,
+  "type": "FILE_PICKER_WIDGET_V2",
+  "version": 1,
+  "widgetId": "cvt7nnl8u5",
+  "widgetName": "FilePicker1"
+}

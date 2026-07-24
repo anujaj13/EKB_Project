@@ -1,0 +1,51 @@
+{
+  "alignment": "start",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 48,
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "fontStyle": "NORMAL",
+  "isDisabled": "{{!SummarizeDoc.data}}",
+  "isLoading": false,
+  "isVisible": "{{SummarizeDoc.data}}",
+  "key": "copy123",
+  "leftColumn": 2,
+  "maxWidth": "fit-content",
+  "minHeight": 40,
+  "minWidth": 120,
+  "mobileBottomRow": 48,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 10,
+  "mobileTopRow": 46,
+  "onClick": "{{copyToClipboard(RichTextEditor1.value); showNotification({title: 'Copied to clipboard!', type: 'success', duration: 2})}}",
+  "parentColumnSpace": 10.25,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 14,
+  "text": "📋 Copy Summary",
+  "topRow": 46,
+  "type": "BUTTON_WIDGET",
+  "version": 3,
+  "widgetId": "copy_button_001",
+  "widgetName": "CopyButton"
+}
