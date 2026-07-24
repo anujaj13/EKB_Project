@@ -1,10 +1,9 @@
 {
   "animateLoading": true,
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 7,
+  "bottomRow": 32,
   "dynamicBindingPathList": [
     {
-      "key": "truncateButtonColor"
+      "key": "text"
     },
     {
       "key": "fontFamily"
@@ -14,37 +13,34 @@
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
-  "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "1rem",
-  "fontStyle": "BOLD",
+  "fontSize": "0.875rem",
+  "fontStyle": "NORMAL",
   "isLoading": false,
-  "isVisible": true,
-  "key": "hi6nkuu6na",
+  "isVisible": "{{FilePicker1.files.length > 0}}",
+  "key": "fileinfo123",
   "leftColumn": 2,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 7,
+  "mobileBottomRow": 32,
   "mobileLeftColumn": 2,
   "mobileRightColumn": 18,
-  "mobileTopRow": 3,
-  "needsErrorInfo": false,
+  "mobileTopRow": 22,
   "overflow": "NONE",
-  "parentColumnSpace": 17.9375,
+  "parentColumnSpace": 10.25,
   "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 18,
+  "rightColumn": 36,
   "shouldTruncate": false,
-  "text": "📄 Document Summarizer",
+  "text": "{{FilePicker1.files.length > 0 ? '📎 File: ' + FilePicker1.files[0].name + ' (' + (FilePicker1.files[0].size / 1024).toFixed(2) + ' KB)' : ''}}",
   "textAlign": "LEFT",
-  "textColor": "#231F20",
-  "topRow": 1,
-  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "textColor": "#626262",
+  "topRow": 30,
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "g0n24g4ye0",
-  "widgetName": "Text1"
+  "widgetId": "fileinfo_widget_001",
+  "widgetName": "FileInfoText"
 }

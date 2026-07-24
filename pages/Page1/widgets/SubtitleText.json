@@ -1,11 +1,7 @@
 {
   "animateLoading": true,
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 7,
+  "bottomRow": 9,
   "dynamicBindingPathList": [
-    {
-      "key": "truncateButtonColor"
-    },
     {
       "key": "fontFamily"
     },
@@ -14,37 +10,34 @@
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
-  "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "1rem",
-  "fontStyle": "BOLD",
+  "fontSize": "0.875rem",
+  "fontStyle": "NORMAL",
   "isLoading": false,
   "isVisible": true,
-  "key": "hi6nkuu6na",
+  "key": "subtitle123",
   "leftColumn": 2,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 7,
+  "mobileBottomRow": 9,
   "mobileLeftColumn": 2,
   "mobileRightColumn": 18,
-  "mobileTopRow": 3,
-  "needsErrorInfo": false,
+  "mobileTopRow": 5,
   "overflow": "NONE",
-  "parentColumnSpace": 17.9375,
+  "parentColumnSpace": 10.25,
   "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 18,
+  "rightColumn": 36,
   "shouldTruncate": false,
-  "text": "📄 Document Summarizer",
+  "text": "Quickly summarize your documents with AI-powered insights. Upload any text document and get a concise, easy-to-read summary in seconds.",
   "textAlign": "LEFT",
-  "textColor": "#231F20",
-  "topRow": 1,
-  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "textColor": "#626262",
+  "topRow": 7,
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "g0n24g4ye0",
-  "widgetName": "Text1"
+  "widgetId": "subtitle_widget_001",
+  "widgetName": "SubtitleText"
 }
